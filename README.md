@@ -6,7 +6,8 @@ This is a simple application that fetches the most viewed articles from the New 
 
 1. Clone the repository
 2. Install the dependencies with `npm install`
-3. Create a ".env" file in the root folder of the application with the "NEXT_PUBLIC_API_KEY" key and the value would be the API key from NYC times so that articles can be fetched
+3. Create a ".env" file in the root folder of the application with the "NEXT_PUBLIC_API_KEY" key and the value would be the API key from NYC times so that articles can be fetched, for example:
+    NEXT_PUBLIC_API_KEY: Your NYC API key
 4. Start the application with `npm run dev`
 5. Open your web browser and navigate to `http://localhost:3000`
 6. Application should retrieve articles and user should be able to click on an article to view the article details page
