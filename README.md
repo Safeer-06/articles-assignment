@@ -25,4 +25,11 @@ This is a simple application that fetches the most viewed articles from the New 
 1. Run `npm run test`
 2. Jest will run all the tests
 
+## How to create a build of the app
+
+1. Run the command `npm run build` to create a production build of the app
+2. The build will be created in the `.next` directory
+3. To start the app in production mode, run the command `npm run start`
+4. The app will be available at `http://localhost:3000`
+
 Note: Make sure you have the `NEXT_PUBLIC_API_KEY` environment variable set with your New York Times API key.
