@@ -6,9 +6,10 @@ This is a simple application that fetches the most viewed articles from the New 
 
 1. Clone the repository
 2. Install the dependencies with `npm install`
-3. Start the application with `npm run dev`
-4. Open your web browser and navigate to `http://localhost:3000`
-5. Application should retrieve articles and user should be able to click on an article to view the article details page
+3. Create a ".env" file in the root folder of the application with the "NEXT_PUBLIC_API_KEY" key and the value would be the API key from NYC times so that articles can be fetched
+4. Start the application with `npm run dev`
+5. Open your web browser and navigate to `http://localhost:3000`
+6. Application should retrieve articles and user should be able to click on an article to view the article details page
 
 ## How to run Cypress testing
 
