@@ -1,0 +1,61 @@
+.main_container {
+    padding: 20px;
+  .image_container {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    position: relative;
+    @media (max-width: 800px) {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .article_image {
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(36, 36, 36, 0.2);
+    border-radius: 10px;
+    object-fit: contain;
+    box-sizing: border-box;
+  }
+
+  .details_container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+  }
+
+  .information_container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+  }
+
+  .label {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.button {
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  width: 246px;
+  height: 40px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
